@@ -1,0 +1,59 @@
+.button_style{    
+    background-color: #ddc8b3;
+    color: white;
+    width: 200px;
+    height: 60px;
+    margin: 20px;
+    border-color: #ddc8b3;
+    font-size: large;
+    margin-bottom: 50px;
+}
+
+.container_button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pagination{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.naoEncontrado{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 550px) {
+    .button_style {
+        width: 100px;
+        height: 50px;
+        margin: 10px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .button_style {
+        width: 90px;
+        height: 50px;
+        margin: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 440px) {
+    .button_style {
+        width: 60px;
+        font-size:12px;
+        margin-bottom: 10px;
+    }
+
+}
+
+

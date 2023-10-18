@@ -1,0 +1,48 @@
+.btn-cream {
+    border-radius:10px;
+    width: 84%;
+    color: white;
+    font-weight: bold;
+    background-color: #c6ab89;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.card-container {
+    max-width: 500px;
+    padding: 40px;
+}
+  
+
+.card-container2 {
+    border-radius: 10px;
+    display: flex;
+    width: 350px;
+    height: 3rem;
+    align-items: center;
+    margin-bottom: 20px;
+  
+}
+
+.card-container3 {
+    width: 350px;
+    height: 300px;
+  
+}
+
+.a_style {
+    color: black;
+}
+  
+@media (max-width: 450px) {
+    .card-container {
+        max-width: 300px;
+    }
+
+    .card-container2 {
+        width: 200px;
+    }
+
+}
+

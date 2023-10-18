@@ -1,0 +1,43 @@
+.footer {
+    width: 100%;
+    background: #bb9457;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+.body {
+    margin: 0;
+    display: block;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+.a_style_footer {
+  font-weight: 400;
+  color: white;
+}
+
+.a_style_footer:hover {
+  color: plum;
+}
+
+
+.cad_style{
+  width: 250px;
+}
+
+.btn-net{
+  width: 250px;
+  color: #bb9457;
+  background-color: white;
+  border-color: white;
+}
+
+.btn-net:hover{
+  width: 250px;
+  color: white;
+  background-color: #bb9457;
+  border-color: white;
+}
